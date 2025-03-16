@@ -1,0 +1,110 @@
+/* styles.css */
+
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Style de base pour le corps de la page */
+body.livraison-page {
+    font-family: Arial, sans-serif;
+    background-image: url('image/fond-pizza2.png'); /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Conteneur principal */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fond semi-transparent */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Titre de la page */
+.container h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 2rem;
+}
+
+/* Style des groupes de formulaire */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #ff6b6b;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Style du bouton */
+button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff4c4c;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 0.5rem;
+    }
+
+    button[type="submit"] {
+        padding: 0.5rem;
+    }
+}

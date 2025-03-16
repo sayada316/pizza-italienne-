@@ -1,0 +1,102 @@
+/* Style global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+    background-color: #F5F5F5; /* Couleur de fond générale pour toute la page */
+}
+
+/* Section 1: Accueil */
+/* Section 1: Accueil */
+header.hero {
+    background-image: url('image/Background-image.png');
+    background-size: cover; /* Garde la couverture de l'image sans la déformer */
+    background-position: center center; /* Centrer l'image */
+    text-align: left;
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh; /* Assure que la section couvre toute la hauteur de la fenêtre */
+    position: relative; /* Position relative pour permettre un ajustement plus flexible */
+}
+
+header .nav-icons {
+    background-color: rgba(0, 0, 0, 0.6); /* Fond sombre pour le cadre des icônes */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 1.5rem;
+}
+
+
+/* Section 2: Nos Plats Préférés */
+.nos-plats {
+    background-color: #4B2C20; /* Marron plus foncé */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 0;  /* Supprime l'espace entre la section accueil et la section des plats */
+}
+
+.nos-plats h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.pizzas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pizza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pizza img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Circulaire */
+    margin-bottom: 10px;
+}
+
+.pizza p {
+    font-size: 1rem;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+/* Section 3: Contact */
+.contact {
+    background-color: #ffa600; /* Beige Jaune */
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 0;  /* Supprime l'espace entre la section des plats et la section contact */
+}
+
+.contact h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+}
+
+.contact p {
+    font-size: 1.2rem;
+}
+
+
+
+
+
+

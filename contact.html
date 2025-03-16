@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Pizza Délice</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="contact-container">
+        <header>
+            <h1>Contactez-nous</h1>
+        </header>
+
+        <!-- Formulaire de contact -->
+        <section class="form-section">
+            <form action="submit_form.php" method="POST">
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="prenom">Prénom:</label>
+                <input type="text" id="prenom" name="prenom" required>
+
+                <label for="email">Adresse Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <!-- Tableau des horaires -->
+        <section class="horaires">
+            <h2>Nos Horaires</h2>
+            <table>
+                <tr>
+                    <th>Jour</th>
+                    <th>Heures d'Ouverture</th>
+                </tr>
+                <tr>
+                    <td>Lundi</td>
+                    <td>12h00 - 22h00</td>
+                </tr>
+                <tr>
+                    <td>Mardi</td>
+                    <td>12h00 - 22h00</td>
+                </tr>
+                <tr>
+                    <td>Mercredi</td>
+                    <td>12h00 - 22h00</td>
+                </tr>
+                <tr>
+                    <td>Jeudi</td>
+                    <td>12h00 - 22h00</td>
+                </tr>
+                <tr>
+                    <td>Vendredi</td>
+                    <td>12h00 - 23h00</td>
+                </tr>
+                <tr>
+                    <td>Samedi</td>
+                    <td>12h00 - 23h00</td>
+                </tr>
+                <tr>
+                    <td>Dimanche</td>
+                    <td>Fermé</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="index.html" style="text-decoration: none; color: #fff;">
+            <button style="background-color: #333; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">
+                Retour à l'accueil
+            </button>
+        </a>
+    </div>
+</body>
+</html>

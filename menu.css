@@ -1,0 +1,124 @@
+/* Style général */
+body.menu-page {
+    font-family: 'Roboto', sans-serif;
+    background-color: #4c0606;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* En-tête */
+.header {
+    background-color: #8B4513; /* Marron */
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #fff;
+    margin: 0;
+}
+
+/* Section des plats */
+.nos-plats {
+    padding: 20px;
+    text-align: center;
+}
+
+.nos-plats h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #ffffff; /* Texte blanc */
+   
+}
+
+/* Lignes de pizzas */
+.pizza-ligne {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.pizza {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 30%;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.pizza img {
+    width: 100%;
+    height: 200px; /* Hauteur fixe pour toutes les images */
+    object-fit: cover; /* Pour éviter la déformation */
+    border-radius: 10px;
+}
+
+.pizza h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #8B4513;
+    margin: 10px 0;
+}
+
+.pizza p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.pizza .prix {
+    font-weight: bold;
+    color: #8B4513;
+}
+
+/* Section des desserts */
+.desserts-titre {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #8B4513;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.desserts-ligne {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.dessert {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 45%;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.dessert img {
+    width: 100%;
+    height: 200px; /* Hauteur fixe pour les images de desserts */
+    object-fit: cover; /* Pour éviter la déformation */
+    border-radius: 10px;
+}
+
+.dessert h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #8B4513;
+    margin: 10px 0;
+}
+
+.dessert p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}

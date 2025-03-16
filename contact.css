@@ -1,0 +1,103 @@
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4c0606;
+    
+    background-size: cover;
+    color: #333;
+}
+
+/* Conteneur principal */
+.contact-container {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+/* Titre de la page */
+header h1 {
+    text-align: center;
+    color: #5c3d1d;
+}
+
+/* Formulaire */
+.form-section {
+    margin-bottom: 30px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5c3d1d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a2a16;
+}
+
+/* Section des horaires */
+.horaires {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #5c3d1d;
+    color: white;
+}
+
+/* Ajustements responsives */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
