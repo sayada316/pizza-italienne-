@@ -11,7 +11,7 @@
 /* Style de base pour le corps de la page */
 body.livraison-page {
     font-family: Arial, sans-serif;
-    background-image: url('image/fond-pizza2.png'); /* Remplacez par le chemin de votre image */
+    background-image: url('images/fond-pizza2.png'); /* Remplacez par le chemin de votre image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
