@@ -9,7 +9,7 @@ body {
 /* Section 1: Accueil */
 /* Section 1: Accueil */
 header.hero {
-    background-image: url('image/Background-image.png');
+    background-image: url('images/Background-image.png');
     background-size: cover; /* Garde la couverture de l'image sans la déformer */
     background-position: center center; /* Centrer l'image */
     text-align: left;
